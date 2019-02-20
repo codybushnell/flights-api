@@ -5,7 +5,7 @@ pool:
   vmImage: "Ubuntu-16.04"
 
 variables:
-  imageName: "flights-api:$(build.buildId)"
+  imageName: "flights-api:latest"
 
 steps:
   - script: |
